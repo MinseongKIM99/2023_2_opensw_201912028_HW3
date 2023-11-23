@@ -3,18 +3,18 @@ import telegram
 import asyncio
 
 # 텔레그램 봇 설정
-token = "6736572403:AAFqSX_mS5AyGZ0c5bSHP4bmtBvJ_MLWtrE"
+token = "Your_token"
 bot = telegram.Bot(token=token)
-mychat = '6633530090'
-public_chat_name = "@K2019test"
+mychat = 'Your_bot_id'
+public_chat_name = "Your_chat_id"
 
 # OpenAI 키
 client = OpenAI(
-    api_key="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"
+    api_key="Your_apikey"
     )
 
 # 질문 내용
-message="인구수 많은 나라 3개만 알려줘"
+message="질문 내용"
 
 # 메시지를 보내는 함수
 def job():
